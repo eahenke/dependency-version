@@ -8,8 +8,6 @@ const ACCOUNT = getAccountArg();
 const DEPENDENCY = getDependencyArg();
 const OPTIONS = parseOptionArguments();
 
-console.log(OPTIONS);
-
 /* Main */
 checkRequiredOptions(OPTIONS);
 
