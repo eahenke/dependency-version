@@ -1,0 +1,27 @@
+{
+  "name": "dependency-version",
+  "version": "1.0.0",
+  "description": "Command line tool for checking dependency versions",
+  "main": "index.js",
+  "scripts":
+  {
+    "test": "jshint index.js"
+  },
+  "keywords": [],
+  "author": "Eric Henke",
+  "license": "ISC",
+  "dependencies":
+  {
+    "console.table": "0.9.1",
+    "isomorphic-fetch": "2.2.1"
+  },
+  "devDependencies":
+  {
+    "jshint": "2.9.5"
+  },
+  "preferGlobal": true,
+  "bin":
+  {
+    "dependency-version": "./index.js"
+  }
+}
